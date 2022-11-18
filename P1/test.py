@@ -1,3 +1,6 @@
+from sklearn.metrics import accuracy_score
+
+
 from collections import namedtuple
 from re import X
 
