@@ -1,3 +1,4 @@
+import numpy as np
 def adagrad_update(cache,params,grads,learning_rate=0.01):
     for c,param,grad, in zip(cache,params,reversed(grads)):
         for i in range(len(grad)):
